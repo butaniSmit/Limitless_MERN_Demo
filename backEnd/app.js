@@ -20,9 +20,7 @@ app.use(
     origin: [
       "http://localhost:3001",
       "http://localhost:3000",
-      "http://limitless.local",
-      "http://localhost:8080",
-      "https://limitless-authdemo.netlify.app"
+      "https://limitless-mern-demo-94na.vercel.app"
     ],
     methods: ["GET","POST","DELETE","PATCH"],
     allowedHeaders: ["X-Requested-With", "content-type","Authorization"],

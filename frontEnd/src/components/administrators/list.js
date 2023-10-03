@@ -89,7 +89,7 @@ const List = () => {
                 <span className="badge bg-danger bg-opacity-20 text-danger ms-2">Inactive</span>}
             </td>
             <td>
-                {item.email!=="smitdb.mt@gmail.com" ?
+                {item.email!=="smitbutani2001@gmail.com" ?
                 <PermissionHelper Permissionname="edit-administrators">
                     <OverlayTrigger
                         placement="top"
@@ -101,7 +101,7 @@ const List = () => {
                     </OverlayTrigger>
                 </PermissionHelper>
             :null}
-                {item?._id !== Cookies.get('Loginid') && item?.role !== 'admin' && item.email!=="smitdb.mt@gmail.com" ?
+                {item?._id !== Cookies.get('Loginid') && item?.role !== 'admin' && item.email!=="smitbutani2001@gmail.com" ?
                     <PermissionHelper Permissionname="delete-administrators">
 
                         <OverlayTrigger

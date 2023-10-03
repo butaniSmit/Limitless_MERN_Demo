@@ -14,7 +14,7 @@ const Login = () => {
     const router = useRouter();
     const [EmailError, setEmailError] = useState('');
     const [PasswordError, setPasswordError] = useState('');
-    const [username, setUsername] = useState('smitdb.mt@gmail.com');
+    const [username, setUsername] = useState('smitbutani2001@gmail.com');
     const [password, setPassword] = useState('abcd@1234');
     const [isLoading, setIsLoading] = useState(false);
     const regex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
