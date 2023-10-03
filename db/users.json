@@ -1,0 +1,130 @@
+[{
+  "_id": {
+    "$oid": "65092f43a6f6fc5b20441af4"
+  },
+  "first_name": "Smit",
+  "last_name": "Butani",
+  "name": "Smit Butani",
+  "email": "smitdb.mt@gmail.com",
+  "role": "admin",
+  "avatar": "default.jpg",
+  "status": 1,
+  "permissions": "64e480ed420559c2a5a9a02a",
+  "password": "$2b$10$GWMMIeVVc9BK/teU37bnROwFqHjXr1C1ae6MHj8NwpSgwi6ERicoC",
+  "__v": 0,
+  "passwordResetExpires": {
+    "$date": "2023-09-22T13:50:56.834Z"
+  },
+  "passwordResetToken": "3929f61f99d2d099266ea49536877667b48995bdee196758b41c7138e7cae71a"
+},{
+  "_id": {
+    "$oid": "65092f77f10c5f08351f189a"
+  },
+  "first_name": "Milan",
+  "last_name": "Patel",
+  "name": "Milan Patel",
+  "email": "milan@yopmail.com",
+  "phone_number": 1234567890,
+  "role": "admin",
+  "avatar": "default.jpg",
+  "status": 0,
+  "permissions": "64e480ed420559c2a5a9a02a",
+  "password": "$2b$10$wiSsnHeMpywtso/TR.UPieqDmrj6cwQBu3GoxWndmg.xGfLWquB8.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65096c6c0d8028af6f848bbb"
+  },
+  "first_name": "Bruno",
+  "last_name": "French",
+  "name": "Bruno French",
+  "email": "syxoz@mailinator.com",
+  "phone_number": {
+    "$numberLong": "4697998965"
+  },
+  "role": "user",
+  "avatar": "default.jpg",
+  "status": 1,
+  "permissions": "64e480f6420559c2a5a9a02f",
+  "password": "$2b$10$r2FnOWEZoMM1F1wmA1G.xOsMhbSqmlFoOzuabncpAwgVAUR.vAlUS",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65096c880d8028af6f848bef"
+  },
+  "first_name": "Evelyn",
+  "last_name": "Cortez",
+  "name": "Evelyn Cortez",
+  "email": "cyhyxakip@mailinator.com",
+  "phone_number": 1234567890,
+  "role": "user",
+  "avatar": "default.jpg",
+  "status": 1,
+  "permissions": "64e480f6420559c2a5a9a02f",
+  "password": "$2b$10$Q7KCVN6hr6RPgdG2Bgeg7O1o9S9BgIvdxMTZ7pFxYYJKhxRoNbi/K",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "65096c950d8028af6f848c05"
+  },
+  "first_name": "Rudyard",
+  "last_name": "Cooper",
+  "name": "Rudyard Cooper",
+  "email": "rihu@mailinator.com",
+  "phone_number": {
+    "$numberLong": "65645454445"
+  },
+  "role": "user",
+  "avatar": "default.jpg",
+  "status": 1,
+  "permissions": "64e480f6420559c2a5a9a02f",
+  "password": "$2b$10$Zdot84Wi4evTrVYXGfI1KOmTTmbIay5WL0wThDqHJXzBZBOP8E1Ci",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6509796e0d8028af6f8491c3"
+  },
+  "first_name": "Branden",
+  "last_name": "Abbott",
+  "name": "Branden Abbott",
+  "email": "fuvawasa@mailinator.com",
+  "phone_number": {
+    "$numberLong": "65645454445"
+  },
+  "role": "user",
+  "avatar": "default.jpg",
+  "status": 1,
+  "permissions": "64e480f6420559c2a5a9a02f",
+  "password": "$2b$10$OpOTIjGYFfX5AuRgu.HAQOtCXpR0kPnp/CiDmZZfg4qRgLtkDEiEC",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "650c414b2d535ffde109efb9"
+  },
+  "first_name": "Test",
+  "last_name": "Test",
+  "name": "Test Test",
+  "email": "test@yopmail.com",
+  "phone_number": 1234567890,
+  "role": "user",
+  "avatar": "default.jpg",
+  "status": 1,
+  "permissions": "64e480f6420559c2a5a9a02f",
+  "password": "$2b$10$9M9m1Er1jSV.c0xE5uwa..qMXFWi49EY6vbL4gHp.Gbcr/OgvE2tC",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6511341f3b336cf8e1f4ed85"
+  },
+  "first_name": "Pearll",
+  "last_name": "Guerra",
+  "name": "Pearll Guerra",
+  "email": "wipuqi@mailinator.com",
+  "phone_number": 818,
+  "role": "user",
+  "avatar": "default.jpg",
+  "status": 1,
+  "permissions": "64e480f6420559c2a5a9a02f",
+  "password": "$2b$10$QC2kceeHdBwom7GGTpy97OKmuVKRnMOiympGGwWKBih3CEQ4BNy.K",
+  "__v": 0
+}]

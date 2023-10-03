@@ -1,0 +1,128 @@
+.loginlogo{
+  margin-left: -135px;
+}
+
+/* Loader */
+
+.loader-overlay {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  align-items: center;
+  display: none;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.loader-overlay.is-active {
+  display: flex;
+}
+
+.loader-overlay.is-full-page {
+  z-index: 9999;
+}
+
+.loader-background {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: white;
+  opacity: 0.5;
+}
+
+.user-name{
+  color: white;
+}
+.datatable-footer, .datatable-header {
+  padding-bottom: 15px !important;
+  padding-top: 15px !important;
+}
+
+.dataTables_length{
+  margin-left: 1000px;
+}
+
+.badge-success{
+  background-color: rgb(91, 147, 91);
+}
+
+.was-validated .form-control:invalid {
+  border-color: none !important;
+  background-image: none !important;
+  border: 1px solid #ddd !important;
+}
+
+.was-validated .form-control:valid {
+  border-color: solid rgba(0, 0, 0, .2) !important;
+  background-image: none !important;
+  border: 1px solid #ddd !important;
+}
+
+.dataTables_info{
+  margin-left: 6px;
+}
+
+.disabled{
+  pointer-events: none;
+}
+.role-add{
+  margin-left: 150px;
+}
+body{
+  overflow: scroll;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+.changebtn{
+  margin-left: 960px;
+}
+.ck-editor__editable {
+  min-height: 300px;
+}
+
+.card .card-img-top {
+  background-image: url(../assets/images/panel_bg.png);
+  background-size: contain;
+  background-color: #252b36;
+}
+
+.card-text {
+  font-weight: 500;
+  color: white;
+}
+.card-role{
+  color: white;
+}
+.ml-sm-auto, .mx-sm-auto {
+  margin-left: auto!important;
+}
+
+.form-check-input:checked {
+  background-color: #252b36 !important;
+  border-color: #252b36 !important;
+}
+.form-check-input[type=checkbox] {
+  border-radius:#252b36 !important;
+}
+.form-check-input:focus {
+  border-color:#252b36 !important;
+  outline: 0;
+  box-shadow: #252b36 !important;
+}
+.profilecard{
+    border: 0 !important;
+    margin-top: 20px !important;
+}
+.page-item{
+  cursor: pointer
+}
+.ck-source-editing-area textarea:not([readonly]):focus {
+  border: 1px solid rgb(219, 216, 216) !important;
+}

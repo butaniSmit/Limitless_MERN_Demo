@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "64e480f6420559c2a5a9a02f"
+  },
+  "allPermissions": "64e480dd420559c2a5a9a027",
+  "role": "user",
+  "permissions": [
+    "change-avatar",
+    "change-password"
+  ],
+  "__v": 0,
+  "description": "This role for users"
+},{
+  "_id": {
+    "$oid": "64e480ed420559c2a5a9a02a"
+  },
+  "allPermissions": "64e480dd420559c2a5a9a027",
+  "role": "admin",
+  "permissions": [],
+  "__v": 0,
+  "description": "This role for admin"
+}]

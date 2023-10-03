@@ -1,0 +1,59 @@
+[{
+  "_id": {
+    "$oid": "64e480dd420559c2a5a9a027"
+  },
+  "allPermissions": [
+    {
+      "group": "Administrators",
+      "permissions": [
+        {
+          "title": "Listing Administrators",
+          "name": "listing-administrators"
+        },
+        {
+          "title": "Add Administrators",
+          "name": "add-administrators"
+        },
+        {
+          "title": "Edit Administrators",
+          "name": "edit-administrators"
+        },
+        {
+          "title": "Delete Administrator",
+          "name": "delete-administrators"
+        }
+      ]
+    },
+    {
+      "group": "Email Templates",
+      "permissions": [
+        {
+          "title": "Listing Email Templates",
+          "name": "listing-emailtemplates"
+        },
+        {
+          "title": "Add Email Templates",
+          "name": "add-emailtemplates"
+        },
+        {
+          "title": "Edit Email Templates",
+          "name": "edit-emailtemplates"
+        },
+        {
+          "title": "Delete Email Templates",
+          "name": "delete-emailtemplates"
+        }
+      ]
+    },
+    {
+      "group": "Edit Profile",
+      "permissions": [
+        {
+          "title": "Change Password",
+          "name": "change-password"
+        }
+      ]
+    }
+  ],
+  "__v": 0
+}]

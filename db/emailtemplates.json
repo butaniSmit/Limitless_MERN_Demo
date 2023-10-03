@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "64e735cc5f89bcdda7fedc85"
+  },
+  "subject": "Forgot Password",
+  "description": "Forgot Password",
+  "template_text": "<table style=\"margin:0;padding:0;\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tbody><tr><td align=\"center\" valign=\"top\"><figure class=\"table\"><table class=\"full-width\" align=\"center\" bgcolor=\"#f9f9f9\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"640\"><tbody><tr><td style=\"padding-bottom:10px;padding-top:10px;\" align=\"center\" bgcolor=\"#015fff\" valign=\"middle\"><figure class=\"table\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tbody><tr><td style=\"padding-bottom:5px;padding-top:5px;\" align=\"center\" valign=\"middle\"><p><img class=\"image_resized\" style=\"width:24.33%;\" src=\"https://upload.wikimedia.org/wikipedia/commons/8/85/Logo-Test.png\"></p></td></tr></tbody></table></figure></td></tr><tr><td style=\"padding-bottom:30px;padding-left:30px;padding-right:30px;padding-top:30px;\" align=\"center\" valign=\"top\"><figure class=\"table\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tbody><tr><td style=\"color:#666666;font-family:Arial, Verdana;font-size:13px;line-height:15px;padding-bottom:10px;\" align=\"left\" valign=\"top\"><p>Hello {USER_NAME},</p><p>Here is your Link to reset your password.</p><p><strong>Link:</strong> {LINK}</p><p>If you have any questions or encounter any problems while login, please send an email to <a href=\"mailto:team@limitless.app\">team@Limitless.app</a>.</p><p><i>Thanks</i>,<br><strong>Limitless Team</strong></p></td></tr></tbody></table></figure></td></tr><tr><td style=\"padding-bottom:10px;padding-top:10px;\" align=\"center\" bgcolor=\"#015fff\" height=\"50\" valign=\"middle\"><figure class=\"table\"><table class=\"footer\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tbody><tr><td style=\"color:#FFFFFF;font-family:Arial, Verdana;font-size:13px;line-height:15px;\" align=\"center\"><p>© {YEAR} All Rights Reserved</p></td></tr></tbody></table></figure></td></tr></tbody></table></figure></td></tr></tbody></table>",
+  "__v": 0,
+  "slug": "forgot-password"
+},{
+  "_id": {
+    "$oid": "64f023ee32476a915d9142ee"
+  },
+  "subject": "Welcome User",
+  "description": "Welcome User",
+  "template_text": "## **Welcome Users**",
+  "__v": 0,
+  "slug": "welcom-user"
+}]
