@@ -95,7 +95,7 @@ const List = () => {
                         placement="top"
                         overlay={<Tooltip id="tooltip1">Edit administrator</Tooltip>}
                     >
-                        <span onClick={(e) => handleShow(e, item)} className='btn edit-administrators text-dark'>
+                        <span onClick={(e) => handleShow(e, item)} className='edit-administrators text-dark'>
                             <i className="ph ph-pen"></i>
                         </span>
                     </OverlayTrigger>
@@ -108,7 +108,7 @@ const List = () => {
                             placement="top"
                             overlay={<Tooltip id="tooltip1">Delete administrator</Tooltip>}
                         >
-                            <span onClick={(e) => deleteItem(e, item._id)} className="btn text-danger">
+                            <span onClick={(e) => deleteItem(e, item._id)} className="text-danger delete-icon">
                                 <i className="ph ph-trash"></i>
                             </span>
                         </OverlayTrigger>

@@ -44,7 +44,7 @@
 }
 
 .dataTables_length{
-  margin-left: 1000px;
+  margin-left: 40px;
 }
 
 .badge-success{
@@ -125,4 +125,7 @@ body{
 }
 .ck-source-editing-area textarea:not([readonly]):focus {
   border: 1px solid rgb(219, 216, 216) !important;
+}
+.delete-icon{
+  margin-left: 10px;
 }

@@ -16,11 +16,11 @@ const PaginationCustom = ({ onPageChange, totalCount, siblingCount = 1, currentP
     let lastPage = paginationRange[paginationRange?.length - 1];
     return (
         <>
-            <div className="datatable-footer">
-                <div className="dataTables_info" id="plan-list_info" role="status" aria-live="polite">Showing {((currentPage - 1) * pageSize) + (totalCount === 0 ? 0 : 1)} to {(currentPage - 1) * pageSize + datalenght} of {totalCount} entries
+            <div className="datatable-footer d-inline-block">
+                <div className="dataTables_info d-inline-block" id="plan-list_info" role="status" aria-live="polite">Showing {((currentPage - 1) * pageSize) + (totalCount === 0 ? 0 : 1)} to {(currentPage - 1) * pageSize + datalenght} of {totalCount} entries
                 </div>
 
-                <div className="dataTables_length" id="plan-list_length">
+                <div className="dataTables_length d-inline-block" id="plan-list_length">
                     <label>
                         <span className='me-1'>Show: </span>
                         <select onChange={onChangeRecordsPerPage} className='form-select'>
@@ -32,7 +32,7 @@ const PaginationCustom = ({ onPageChange, totalCount, siblingCount = 1, currentP
                         </select>
                     </label>
                 </div>
-                <div className="dataTables_paginate paging_simple_numbers" id="plan-list_paginate">
+                <div className="dataTables_paginate paging_simple_numbers float-end" id="plan-list_paginate">
 
                     <ul className="pagination pagination-flat">
                         <li className={currentPage === 1 || totalCount === 0 ? 'paginate_button page-item previous disabled' : 'paginate_button page-item previous'} onClick={onPrevious}>

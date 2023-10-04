@@ -67,7 +67,7 @@ const List = () => {
                                     placement="top"
                                     overlay={<Tooltip id="tooltip1">Manage permissions</Tooltip>}
                                 >
-                                    <span onClick={() => { router.push(`/roles/manage-role-permissions/${item._id}`) }} className="btn text-dark">
+                                    <span onClick={() => { router.push(`/roles/manage-role-permissions/${item._id}`) }} className="text-dark">
                                         <i className="ph ph-gear-six"></i>
                                     </span>
                                 </OverlayTrigger>
@@ -75,7 +75,7 @@ const List = () => {
                                     placement="top"
                                     overlay={<Tooltip id="tooltip1">Edit role</Tooltip>}
                                 >
-                                    <span onClick={(e) => handleShow(e, item)} className='icon-home-btn  btn edit-role text-dark'>
+                                    <span onClick={(e) => handleShow(e, item)} className='delete-icon icon-home-btn edit-role text-dark'>
                                         <i className="ph ph-note-pencil"></i>
                                     </span>
                                 </OverlayTrigger>
@@ -83,7 +83,7 @@ const List = () => {
                                     placement="top"
                                     overlay={<Tooltip id="tooltip1">Delete role</Tooltip>}
                                 >
-                                    <span onClick={(e) => deleteItem(e, item._id)} className="btn delete-role text-danger">
+                                    <span onClick={(e) => deleteItem(e, item._id)} className="delete-icon delete-role text-danger">
                                         <i className="ph ph-trash"></i>
                                     </span>
                                 </OverlayTrigger>
