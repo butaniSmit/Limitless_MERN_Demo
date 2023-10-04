@@ -108,7 +108,7 @@ const DataTable = ({ loading, setLoading, roledata, Getdata, fieldName, renderUs
                                     <>
                                         <td>
                                             <Select2
-                                                style={{ width: "80%" }}
+                                                style={{ width: "100%" }}
                                                 className="form-control"
                                                 defaultValue="Select Role"
                                                 options={{ placeholder: "Select Role" }}
