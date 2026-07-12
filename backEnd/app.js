@@ -6,6 +6,7 @@ const userRouter = require('./routers/userRouters');
 const roleRouter = require('./routers/roleRouters');
 const permissionRouter = require('./routers/permissionRouters');
 const emailTemplateRouter = require('./routers/emailTemplatesRouters');
+const dbHealthRouter = require('./routers/dbHealthRouters');
 const globalErrorHandler = require('./controllers/errorController');
 var morgan = require("morgan");
 const path = require('path');
@@ -40,6 +41,7 @@ app.use('/api/users', userRouter);
 app.use('/api/roles',roleRouter);
 app.use('/api/permissions', permissionRouter);
 app.use('/api/email-templates', emailTemplateRouter);
+app.use('/api/db-health', dbHealthRouter);
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
   next();
